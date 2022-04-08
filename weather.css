@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+display: flex;
+justify-content: center;
+align-items: center;
+background: no-repeat center center/cover;
+ /* url('https://source.unsplash.com/random/?city,night'); */
+}
+
+.card{
+    width: fit-content;
+    height: auto;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 30px;
+    /* align-items: center; */
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+#Src{
+background-color: darkgray;
+padding: 5px;
+border-radius: 12px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#Src:hover{
+    background-color: beige;
+}
+#search{
+    padding: 10px;
+    border-radius: 12px;
+}
+.left{
+    padding: 2px 0px;
+}
+
+@media screen and (max-width: 500px) {
+.card{
+ padding: 30px 10px;
+    font-size: 0.8rem;
+    
+}
+.card h1{ 
+
+    font-size: 1rem;
+}
+#search{
+    padding: 5px;
+}    
+#Src{
+    font-size: 0.8rem;
+}
+.srch{
+    padding-bottom: 10px;
+}
+}
